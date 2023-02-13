@@ -1,6 +1,6 @@
 ﻿int [] numbers = new int [8];
 for (int i = 0; i < numbers.Length; i++)
-{ numbers[i] = new Random().Next(-100, 100);}
+{ numbers[i] = new Random().Next(100, 999);}
  for (int i = 0; i < numbers.Length; i++)
  {Console.Write(numbers[i] + "|");}
 int a = 0; int b = 0;
